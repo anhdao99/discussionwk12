@@ -10,17 +10,17 @@ document.addEventListener("click", function(){
     alert(new Date());
 });
 
-let sameAddress = document.getElementById('sameAddress');
-let home = document.getElementById('home');
-let bill = document.getElementById('bill');
-sameAddress.addEventListener('change', function() {
-    if (sameAddress.checked) {
-        home.value = bill.value;
-        home.disabled = true;
-    } else {
-        home.value = '';
-    }
-});
+// let sameAddress = document.getElementById('sameAddress');
+// let home = document.getElementById('home');
+// let bill = document.getElementById('bill');
+// sameAddress.addEventListener('change', function() {
+//     if (sameAddress.checked) {
+//         home.value = bill.value;
+//         home.disabled = true;
+//     } else {
+//         home.value = '';
+//     }
+// });
 
 function challenge3() {
     let standing = document.querySelector('input[name="standing"]:checked');
